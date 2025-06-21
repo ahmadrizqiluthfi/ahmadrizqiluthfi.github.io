@@ -3,18 +3,26 @@
 const projects = [
   {
     title: "Website Deteksi Penyakit TBC",
-    description:
-      "Membangun sistem deteksi penyakit TBC berbasis web menggunakan teknologi full-stack.",
+    description: <>Membangun sistem deteksi penyakit TBC berbasis web.</>,
   },
   {
     title: "Trekkingnesia Sentul",
-    description:
-      "Merancang dan membangun website pariwisata menggunakan HTML, CSS, PHP, dan Bootstrap.",
+    description: (
+      <>
+        Merancang dan membangun website pariwisata menggunakan HTML, CSS, PHP,
+        dan <span className="italic">Bootstrap</span>.
+      </>
+    ),
   },
   {
     title: "IT Support",
-    description:
-      "Melakukan perakitan serta instalasi komputer, serta melakukan pemeliharaan (maintenance) perangkat lunak dan perangkat keras pada PC maupun laptop.",
+    description: (
+      <>
+        Melakukan perakitan serta instalasi komputer, serta melakukan
+        pemeliharaan (<span className="italic">maintenance</span>) perangkat
+        lunak dan perangkat keras pada PC maupun laptop.
+      </>
+    ),
   },
 ];
 
@@ -24,8 +32,8 @@ export default function Projects() {
       id="projects"
       className="py-20 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100"
     >
-      <div className="max-w-5xl mx-auto px-6">
-        <h2 className="text-3xl font-bold border-b-4 border-blue-500 inline-block pb-1 mb-8">
+      <div className="max-w-4xl mx-auto px-6">
+        <h2 className="text-3xl font-bold border-b-4 border-blue-500 inline-block pb-1 mb-6">
           Projects
         </h2>
 

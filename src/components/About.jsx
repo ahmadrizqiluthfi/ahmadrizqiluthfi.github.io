@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-20 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100"
+      className="py-20 bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100"
     >
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-3xl font-bold border-b-4 border-blue-500 inline-block pb-1 mb-6">
@@ -37,14 +37,6 @@ export default function About() {
             dalam mengubah cara bisnis dan organisasi beroperasi, dan saya
             sangat antusias untuk terus berkontribusi dalam kemajuan perusahaan
             dengan keterampilan dan pengetahuan yang saya miliki.
-          </p>
-
-          <p>
-            Saat ini, saya mencari peluang untuk berkarier di dunia IT, di mana
-            saya dapat terus mengembangkan diri, menghadapi tantangan baru, dan
-            berkontribusi positif dalam mengoptimalkan teknologi informasi dalam
-            lingkungan kerja. Saya siap untuk memanfaatkan pengalaman dan
-            pendidikan saya dalam Sistem Informasi untuk mencapai tujuan ini.
           </p>
         </div>
       </div>
