@@ -9,7 +9,7 @@ export default function Skills() {
     { name: "Bootstrap", level: 85 },
     { name: "Tailwind CSS", level: 60 },
     { name: "PHP", level: 70 },
-    { name: "IT Support", level: 60 },
+    { name: "IT Support", level: 85 },
     { name: "Adobe Photoshop, Premiere", level: 70 },
   ];
 
