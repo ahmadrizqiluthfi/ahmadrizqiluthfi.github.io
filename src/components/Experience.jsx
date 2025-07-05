@@ -12,22 +12,61 @@ export default function Experience() {
         </h2>
 
         <div className="space-y-10">
+          {/* FREELANCE IT SUPPORT */}
+          <div>
+            <h3 className="text-xl font-semibold">
+              IT Support (<i>Freelance</i>)
+            </h3>
+            <p className="text-sm text-gray-400">Agu 2017 – Sekarang</p>
+            <ul className="list-disc pl-6 mt-2 space-y-1">
+              <li>
+                Perakitan, instalasi, dan pemeliharaan komputer (<i>hardware</i>{" "}
+                & <i>software</i>)
+              </li>
+            </ul>
+          </div>
+
+          {/* PT. POS INDONESIA */}
+          <div>
+            <h3 className="text-xl font-semibold">
+              Admin Verifikasi Data Program Bantuan Sosial – PT. POS Indonesia
+            </h3>
+            <p className="text-sm text-gray-400">Okt 2024 – Jan 2025</p>
+            <ul className="list-disc pl-6 mt-2 space-y-1">
+              <li>
+                Melakukan pemeriksaan dan verifikasi data program bantuan
+                sosial: Stunting, CBP (Cadangan Beras Pemerintah), dan AML (Alat
+                Memasak Listrik)
+              </li>
+              <li>
+                Menyusun laporan dan mengelola data menggunakan{" "}
+                <i>Google Sheets</i>
+              </li>
+              <li>
+                Mendampingi penyedia AML dalam proses verifikasi data serta
+                pembuatan laporan pelaksanaan
+              </li>
+            </ul>
+          </div>
+
           {/* PT. IDE SOLUSI INTEGRASI */}
           <div>
             <h3 className="text-xl font-semibold">
-              <i>IT Helpdesk</i> – PT. IDE Solusi Integrasi
+              IT Helpdesk – PT. IDE Solusi Integrasi
             </h3>
             <p className="text-sm text-gray-400">Sep 2023 – Apr 2024</p>
-            <p className="mt-2">
-              Bertugas sebagai <i>IT Helpdesk</i> yang menangani berbagai proyek
-              penting, seperti migrasi data PC/Laptop di PT. Takenaka,
-              mendampingi pelaksanaan <i>corrective maintenance</i> jaringan
-              fiber optic di PUSLITBANG Polri dari pihak penyedia, serta
-              memberikan dukungan layanan ICT Helpdesk di PT. Bonecom Tricom dan
-              PT. Toyota Boshoku Indonesia. Juga terlibat dalam implementasi
-              aplikasi web dan penyusunan dokumen <i>UAT Form</i> untuk
-              mendukung proses pengujian aplikasi.
-            </p>
+            <ul className="list-disc pl-6 mt-2 space-y-1">
+              <li>Migrasi data perangkat di PT. Takenaka</li>
+              <li>
+                Mendampingi penyedia layanan saat proses{" "}
+                <i>corrective maintenance</i> fiber optic di Puslitbang Polri
+              </li>
+              <li>
+                ICT Helpdesk di PT. Bonecom Tricom & PT. Toyota Boshoku
+                Indonesia
+              </li>
+              <li>Implementasi web application dan dokumen UAT Form</li>
+            </ul>
           </div>
 
           {/* PT. ASKRINDO */}
@@ -36,12 +75,10 @@ export default function Experience() {
               <i>Internsip</i> – Divisi Transformasi, PT. Askrindo
             </h3>
             <p className="text-sm text-gray-400">Nov 2023 – Jan 2024</p>
-            <p className="mt-2">
-              Selama masa magang, berkontribusi dalam proses pembuatan UAT Form,
-              melakukan pengujian bug dan error pada website perusahaan, serta
-              menyusun laporan hasil pengujian sebagai bagian dari proses
-              perbaikan sistem digital di PT. Askrindo.
-            </p>
+            <ul className="list-disc pl-6 mt-2 space-y-1">
+              <li>Penyusunan UAT Form</li>
+              <li>Pengujian sistem dan dokumentasi bug/error</li>
+            </ul>
           </div>
 
           {/* FREELANCE FRONT-END */}
@@ -50,34 +87,12 @@ export default function Experience() {
               <i>Freelance</i> Front-End Developer
             </h3>
             <p className="text-sm text-gray-400">Okt 2021 – Des 2021</p>
-            <p className="mt-2">
-              Membuat desain UI & UX sesuai kebutuhan klien serta mengembangkan
-              sisi <i>front-end</i> dari website yang diminta.
-            </p>
-          </div>
-
-          {/* FREELANCE IT SUPPORT */}
-          <div>
-            <h3 className="text-xl font-semibold">Freelance IT Support</h3>
-            <p className="text-sm text-gray-400">Agu 2017 – Sekarang</p>
-            <p className="mt-2">
-              Melakukan perakitan dan instalasi komputer, serta perawatan (
-              <i>maintenance</i>) perangkat lunak dan keras pada PC/laptop.
-            </p>
-          </div>
-
-          {/* PT. POS INDONESIA */}
-          <div>
-            <h3 className="text-xl font-semibold">
-              Pekerja Harian Lepas – <i>Auditor</i>, PT. POS Indonesia
-            </h3>
-            <p className="text-sm text-gray-400">Okt 2024 – Jan 2025</p>
-            <p className="mt-2">
-              Membuat data pendataan menggunakan <i>Google Sheets</i>, melakukan
-              pemeriksaan terhadap data stunting, CBP (Bansos Bantuan Pangan),
-              dan AML (Bantuan Sosial Alat Memasak Listrik), serta mendampingi
-              dan membuat laporan kepada penyedia AML.
-            </p>
+            <ul className="list-disc pl-6 mt-2 space-y-1">
+              <li>
+                Merancang UI/UX dan mengembangkan web responsif (<i>HTML</i>,{" "}
+                <i>CSS</i>, <i>Bootstrap</i>, <i>PHP</i>)
+              </li>
+            </ul>
           </div>
         </div>
       </div>

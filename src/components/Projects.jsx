@@ -3,24 +3,51 @@
 const projects = [
   {
     title: "Website Deteksi Penyakit TBC",
-    description: <>Membangun sistem deteksi penyakit TBC berbasis web.</>,
+    description: (
+      <>
+        <ul className="list-disc pl-6 mt-2 space-y-1">
+          <li>
+            Merancang dan mengembangkan portofolio pribadi untuk menampilkan
+            proyek, bio, dan kontak
+          </li>
+          <li>
+            Menggunakan <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i>, dan{" "}
+            <i>React</i>
+          </li>
+        </ul>
+      </>
+    ),
   },
   {
     title: "Trekkingnesia Sentul",
     description: (
       <>
-        Merancang dan membangun website pariwisata menggunakan HTML, CSS, PHP,
-        dan <span className="italic">Bootstrap</span>.
+        <ul className="list-disc pl-6 mt-2 space-y-1">
+          <li>
+            Merancang dan membangun <i>website</i> promosi wisata lokal
+          </li>
+          <li>
+            Menggunakan <i>HTML</i>, <i>CSS</i>, <i>Bootstrap 4</i>, dan{" "}
+            <i>PHP</i>
+          </li>
+        </ul>
       </>
     ),
   },
   {
-    title: "IT Support",
+    title: "Website Portofolio Pribadi",
     description: (
       <>
-        Melakukan perakitan serta instalasi komputer, serta melakukan
-        pemeliharaan (<span className="italic">maintenance</span>) perangkat
-        lunak dan perangkat keras pada PC maupun laptop.
+        <ul className="list-disc pl-6 mt-2 space-y-1">
+          <li>
+            Membangun sistem web untuk mendeteksi penyakit TBC sebagai bagian
+            dari tugas akhir
+          </li>
+          <li>
+            Menggunakan <i>PHP</i>, <i>MySQL</i>, dan <i>HTML/CSS</i> untuk
+            pengolahan gejala dan diagonosis
+          </li>
+        </ul>
       </>
     ),
   },
