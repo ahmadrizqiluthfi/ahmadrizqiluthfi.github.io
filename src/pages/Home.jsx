@@ -37,8 +37,6 @@ const Home = () => {
         <a
           href={CV}
           download="CV_Ahmad_Rizqi_Luthfi.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
           className="px-6 py-3 bg-blue-600 rounded-lg font-semibold hover:bg-blue-700 transition"
         >
           Download CV
