@@ -3,10 +3,11 @@ import { motion } from "framer-motion";
 const Skills = () => {
   const skills = [
     "Troubleshooting Hardware/Software",
-    "React",
-    "Tailwind CSS",
+    "HTML/CSS",
+    "Basic React.js",
+    "Basic Tailwind CSS",
     "JavaScript",
-    "Node.js",
+    "Basic Node.js",
     "HTML/CSS",
     "Basic PHP",
     "Basic Python",
