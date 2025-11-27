@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import CV from "../assets/CV_Ahmad_Rizqi_Luthfi.pdf";
+import CV from "../assets/CV_AHMAD_RIZQI_LUTHFI.pdf";
 import Profile from "../assets/Profile.png";
 
 const Home = () => {
